@@ -1,4 +1,3 @@
-package com.satyajit;
 import java.util.Scanner;
 
 public class Inputs {

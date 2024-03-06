@@ -1,5 +1,3 @@
-package com.satyajit;
-
 public class Primitives {
     public static void main(String[] args) {
         int rollno = 47;

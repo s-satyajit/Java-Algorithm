@@ -1,5 +1,3 @@
-package com.satyajit;
-
 public class Conditionals {
     public static void main(String[] args) {
         int salary = 30200;
