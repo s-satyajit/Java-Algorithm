@@ -7,7 +7,7 @@ public class Primitives {
         long largeInteger = 2343465465234L;
         boolean check = true;
 
-        System.out.println(rollno + " " + letter + " " + marks + " " + largeDecimalNumbers + " " + largeInteger);
+        System.out.println(rollno + " " + letter + " " + marks + " " + largeDecimalNumbers + " " + largeInteger + " " + String.valueOf(check));
         
     }
 }
