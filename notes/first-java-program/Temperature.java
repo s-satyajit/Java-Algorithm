@@ -8,6 +8,7 @@ public class Temperature {
 
         float tempC = input.nextFloat();
         float tempF = (tempC * 9/5) + 32;
+        input.close();
         System.out.println(tempF);
     }
 }

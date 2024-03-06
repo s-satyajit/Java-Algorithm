@@ -6,6 +6,7 @@ public class Largest {
         int a = input.nextInt();
         int b = input.nextInt();
         int c = input.nextInt();
+        input.close();
 
         // int max = a;
         // if(b>max)

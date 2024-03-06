@@ -10,6 +10,7 @@ public class Loops{
         
         // Scanner input = new Scanner(System.in);
         // int n = input.nextInt();
+        // input.close();
         
         // for(int num = 0; num <=n; num++ ) {
         //     // System.out.print(num + " ");

@@ -7,12 +7,15 @@ public class Inputs {
         int rollno = input.nextInt();
         System.out.println("Your rollno is " + rollno);
 
+        System.out.print("Please enter your name: ");
         String name = input.next();
         System.out.println(name);
 
+        System.out.print("Please enter your marks: ");
         float marks = input.nextFloat();
         System.out.println(marks);
 
+        input.close();
         
 
     }

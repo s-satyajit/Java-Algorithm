@@ -6,6 +6,8 @@ public class Primitives {
         double largeDecimalNumbers = 2323423.2343;
         long largeInteger = 2343465465234L;
         boolean check = true;
+
+        System.out.println(rollno + " " + letter + " " + marks + " " + largeDecimalNumbers + " " + largeInteger);
         
     }
 }

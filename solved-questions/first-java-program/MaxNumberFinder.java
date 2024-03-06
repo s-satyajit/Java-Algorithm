@@ -9,6 +9,7 @@ public class MaxNumberFinder {
 
         System.out.print("Input your second number ");
         double b = input.nextDouble();
+        input.close();
 
         if(a<b)
             System.out.print(b + " is larger");

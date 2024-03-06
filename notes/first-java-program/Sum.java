@@ -9,6 +9,7 @@ public class Sum {
 
         float num1 = input.nextFloat();
         float num2 = input.nextFloat();
+        input.close();
 
         // int sum = num1+num2;
         float sum = num1+num2;

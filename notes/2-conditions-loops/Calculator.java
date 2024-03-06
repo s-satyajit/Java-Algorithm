@@ -34,5 +34,7 @@ public class Calculator{
             else
                 System.out.println("Invalid Input!");
             System.out.println(ans);
+            
+            input.close();
     }
 }
