@@ -28,6 +28,8 @@ public class AreaOfRhombusCalculator{
             double diagonal2 = input.nextDouble();
             areaOfRhombus = 0.5 * diagonal1 * diagonal2;
             System.out.println("The area of the Rhombus is " + areaOfRhombus);
+
+            input.close();
         }
 
         
