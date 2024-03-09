@@ -14,7 +14,8 @@ class Solution {
 public class SubstractProductAndSumCalculator {
     public static void main(String[] args) {
         Solution sol = new Solution();
-        int result = sol.SubstractProductAndSum(234);
+        int result = sol.SubstractProductAndSum(343);
         System.out.println(result);
     }
+
 }
