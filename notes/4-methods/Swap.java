@@ -21,6 +21,7 @@ public class Swap {
         int temp = a;
         a = b;
         b = temp; 
+        // this change will only be valid in this function scope only.
     }
 
     static void changeName(String naam) {
