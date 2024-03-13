@@ -12,6 +12,8 @@ public class MinMaxNumberPrinter {
         System.out.print("Print the third number: ");
         int thirdNum = in.nextInt();
 
+        in.close();
+
         numComparer(firstNum, secondNum, thirdNum);
     }
 
