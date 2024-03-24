@@ -1,13 +1,13 @@
 public class Scope {
     public static void main(String[] args) {
         int a = 10;
-        int b = 20;
+        //int b = 20;
         String name = "Satyajit";
         {
             // int a = 78;    //already initialized outside the block in the same method, hence you cannot initialise again
             a = 100;   //reassign the origin reference variable to some other value
             System.out.println(a);
-            int c = 99;      //values initliased in this block , will remain in block
+            //int c = 99;      //values initliased in this block , will remain in block
             name = "Rahul";
              System.out.println(name);
         }

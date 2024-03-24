@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SumOfNaturalNums {
+public class SumOfNaturalNums{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -9,9 +9,9 @@ public class SumOfNaturalNums {
 
         in.close();
 
-        System.out.print("The sum of the first " + num + " natural numbers is: " + findSum(num));
-
+        System.out.print("The sum of the " + num  + " natural numbers is: " + findSum(num));
     }
+
     static int findSum(int n) {
         int sum = 0;
         int x = 1;
