@@ -14,18 +14,18 @@ public class MultiDimension{
      Scanner in = new Scanner(System.in);
      int arr[][] = new int[3][4];
 
-     //input
+
+    //input
      for(int row = 0; row < arr.length; row++) {
         for(int col = 0; col < arr[row].length; col++) {
             arr[row][col] = in.nextInt();
         }
      }
-
      in.close();
 
      //output
-    //  for(int row = 0; row < arr.length; row++) { 
-    //     for(int col = 0; col < arr[row].length; col++) {
+    //  for(int row = 0; row < arr.length; row++) {
+    //     for(int col = 0; col < arr.length; col++) {
     //         System.out.print(arr[row][col] + " ");
     //     }
     //     System.out.println();
@@ -34,9 +34,9 @@ public class MultiDimension{
     // for(int row = 0; row < arr.length; row++) {
     //     System.out.println(Arrays.toString(arr[row]));
     // }
-    
-    for(int[] a : arr) {
-        System.out.println(Arrays.toString(a));
+
+    for(int[] num : arr) {
+        System.out.println(Arrays.toString(num));;
     }
 
     }
