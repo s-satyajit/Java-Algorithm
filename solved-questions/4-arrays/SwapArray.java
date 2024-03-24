@@ -1,14 +1,9 @@
-import java.util.Arrays;
-
 public class SwapArray {
     public static void main(String[] args) {
-        int[] arr = {1, 3, 23, 9, 18};
-        swap(arr, 1, 2);
-        System.out.println(Arrays.toString(arr));
+        int[] arr = {12, 234, 34, 45, 234, 345};
+        System.out.println(swap(arr, 0, ));
     }
-    static void swap(int[] arr, int index1, int index2) {
-        int temp = arr[index1];
-        arr[index1] = arr[index2];
-        arr[index2] = temp;
+    static int swap(int[] arr) {
+
     }
 }
