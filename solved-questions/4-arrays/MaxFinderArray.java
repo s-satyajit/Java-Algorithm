@@ -4,6 +4,9 @@ public class MaxFinderArray {
         System.out.println(maxFinder(arr));
     }
     static int maxFinder(int[] arr) {
+        if(arr.length == 0)
+            return -1;
+            
         int maxValue = arr[0];
         for(int i = 1; i < arr.length; i++) {
             if(arr[i] > maxValue) 
