@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ColNoFixed",
+            "request": "launch",
+            "mainClass": "ColNoFixed",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "SwapElements",
+            "request": "launch",
+            "mainClass": "SwapElements",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
             "name": "MaxFinderArrayRange",
             "request": "launch",
             "mainClass": "MaxFinderArrayRange",
