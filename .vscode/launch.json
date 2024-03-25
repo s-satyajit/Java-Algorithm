@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReversingArray",
+            "request": "launch",
+            "mainClass": "ReversingArray",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
             "name": "PrimeNumberFinder",
             "request": "launch",
             "mainClass": "PrimeNumberFinder",
