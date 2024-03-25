@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxFinderArrayRange",
+            "request": "launch",
+            "mainClass": "MaxFinderArrayRange",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "SwapArray",
+            "request": "launch",
+            "mainClass": "SwapArray",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
             "name": "ReversingArray",
             "request": "launch",
             "mainClass": "ReversingArray",
