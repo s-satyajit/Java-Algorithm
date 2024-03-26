@@ -1,0 +1,182 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ColNoFixed",
+            "request": "launch",
+            "mainClass": "ColNoFixed",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "SwapElements",
+            "request": "launch",
+            "mainClass": "SwapElements",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "MaxFinderArrayRange",
+            "request": "launch",
+            "mainClass": "MaxFinderArrayRange",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "SwapArray",
+            "request": "launch",
+            "mainClass": "SwapArray",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "ReversingArray",
+            "request": "launch",
+            "mainClass": "ReversingArray",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumberFinder",
+            "request": "launch",
+            "mainClass": "PrimeNumberFinder",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "Question",
+            "request": "launch",
+            "mainClass": "Question",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Basics",
+            "request": "launch",
+            "mainClass": "Basics",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "CaseCheck",
+            "request": "launch",
+            "mainClass": "CaseCheck",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "Conditionals",
+            "request": "launch",
+            "mainClass": "Conditionals",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "CountNums",
+            "request": "launch",
+            "mainClass": "CountNums",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "Inputs",
+            "request": "launch",
+            "mainClass": "Inputs",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "Largest",
+            "request": "launch",
+            "mainClass": "Largest",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "Loops",
+            "request": "launch",
+            "mainClass": "Loops",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "NestedSwitch",
+            "request": "launch",
+            "mainClass": "NestedSwitch",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "Primitives",
+            "request": "launch",
+            "mainClass": "Primitives",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "Reverse",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "Sum",
+            "request": "launch",
+            "mainClass": "Sum",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "Temperature",
+            "request": "launch",
+            "mainClass": "Temperature",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "type": "java",
+            "name": "TypeCasting",
+            "request": "launch",
+            "mainClass": "TypeCasting",
+            "projectName": "Java + DSA_8dcbcd5b"
+        }
+    ]
+}
