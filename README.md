@@ -1,3 +1,2 @@
 # learn-java
-<br>
-A repository where I learn Java and Data Structures and Algorithms
+A repository where I learn and practice Java and Data Structures and Algorithms.
