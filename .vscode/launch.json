@@ -5,6 +5,41 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "ArraySearch",
+            "request": "launch",
+            "mainClass": "ArraySearch",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticOperator",
+            "request": "launch",
+            "mainClass": "ArithmeticOperator",
+            "projectName": "Java + DSA_8dcbcd5b"
+        },
+        {
             "type": "java",
             "name": "ColNoFixed",
             "request": "launch",
