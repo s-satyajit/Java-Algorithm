@@ -1,7 +1,7 @@
-public class ArraySearch {
+public class ArraySearch{
     public static void main(String[] args) {
-        int[] nums = {23, 45, 1, 2, 8, 19, -3, 16, -11, 28};
-        int target = 16;
+        int[] nums = {23, 65, 34, 76, 98, 45, 867};
+        int target = 76;
         int ans = linearSearch(nums, target);
         System.out.println(ans);
     }
@@ -15,7 +15,6 @@ public class ArraySearch {
             if(element == target)
                 return index;
         }
-
         return -1;
     }
 }
