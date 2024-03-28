@@ -18,7 +18,14 @@ public class EvenDigits{
         return numberOfDigits % 2 == 0;
     }
 
+    static  int digit2(int num) {
+        return (int)(Math.log10(num) + 1);
+    }
+
     static int digit(int n) {
+        if(n < 0)
+            n = n * -1;
+
         int count = 0;
         while(n > 0) {
             count++;
