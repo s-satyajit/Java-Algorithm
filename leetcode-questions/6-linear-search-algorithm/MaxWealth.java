@@ -8,15 +8,19 @@ public class MaxWealth {
     }
 
     static int maximumWealth(int[][] accounts) {
-        int maxWealth = Integer.MIN_VALUE;
-        for(int person = 0; person < accounts.length; person++) {
+        int wealthier = Integer.MIN_VALUE;
+        for(int[] ints : accounts) {
+            // when you start a new col, take a new sum for that row
             int sumOfWealth = 0;
-            for(int account = 0; account < accounts[person].length; account++){
-                sumOfWealth += accounts[person][account];
+            for(int anInt : ints) {
+                sumOfWealth += anInt;
             }
-            if(sumOfWealth > maxWealth)
-                maxWealth = sumOfWealth;
+
+            // now we have sum of accounts of person
+            // check with overall wealthier
+            if(sumOfWealth > wealthier)
+                wealthier = sumOfWealth;
         }
-        return maxWealth;
+        return wealthier;
     }
 }
