@@ -4,19 +4,22 @@ public class ArraySearch {
         int target = 78;
         int ans = linearSearch(nums, target);
         int ans2 = linearSearch2(nums, target);
-        System.out.println(ans + " " + ans2);
+        System.out.println(" " + ans + " " + ans2);
     }
 
     static int linearSearch2(int[] nums, int target) {
         if(nums.length == 0)
             return -1;
 
+        // int index = 0;
         for(int element : nums) {
             if(element == target)
+                // return index;
                 return element;
+            // index++;
+            }
+            return -1;
         }
-        return -1;
-    }
 
     // search in the array: return the index if item found
     //  otherwise if item not found return -1
