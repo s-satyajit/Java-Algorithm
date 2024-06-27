@@ -1,6 +1,7 @@
 public class EvenDigits{
     public static void main(String[] args) {
        int[] arr = {12, 345, 2, 6, 7896};
+       System.out.println(" ");
        System.out.println(findNumbers(arr));
     }
 
@@ -18,9 +19,9 @@ public class EvenDigits{
         return numberOfDigits % 2 == 0;
     }
 
-    static  int digit2(int num) {
-        return (int)(Math.log10(num) + 1);
-    }
+    // static  int digit2(int num) {
+    //     return (int)(Math.log10(num) + 1);
+    // }
 
     static int digit(int n) {
         if(n < 0)
